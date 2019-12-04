@@ -80,8 +80,6 @@ function createGroup( name, idNum ) {
             
             collapseButton.addEventListener('click', function() {
                 this.classList.toggle( 'active' );
-                //groupContent.classList.toggle( 'collapse-panel' );
-                //groupContent.classList.toggle( 'uncollapse' );
                 if( groupContent.style.maxHeight ) {
                     groupContent.style.maxHeight = null;
                 } else {
